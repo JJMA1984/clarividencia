@@ -1,0 +1,55 @@
+
+body {
+    background-image:url(images/imagen\ de\ fondo.jpg);
+    font-family: 'Arial', sans-serif;
+    background-position: center;
+}
+.header {
+    text-align: center;
+
+    padding: 50px;
+}
+.game {
+    background-image: url(images/fondo1.png);
+    background-repeat:repeat;
+    text-align: center;
+    margin-top: 50px;
+}
+.card {
+    width: 100px;
+    height: 150px;
+    margin: 10px auto;
+    background-image: url(images/foto.jpg);
+    border: 1px solid #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.result {
+    margin-left: 25%;
+    width: 50%;
+    background-color: yellowgreen ;
+    margin-top: 20px;
+    
+    
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.contact-button {
+    margin-top: 20px;
+}
+.footer {
+    
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position:static;
+    width: 100%;
+    bottom: 0;
+}
+.footer button {
+    margin-top: 10px;
+}
