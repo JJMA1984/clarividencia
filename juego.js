@@ -86,6 +86,6 @@ const cards = [
     }
 
     function redirectToWhatsApp() {
-        const whatsappUrl = `https://wa.me/573024242492?text=${encodeURIComponent(`Hola Maestro JOSE FELIZ, he obtenido un descuento del ${discount}% como optenerlo. ¡Estoy interesado en saber más! La carta que saqué fue: ${document.getElementById('result').innerText}`)}`;
+        const whatsappUrl = `https://wa.me/573124475604?text=${encodeURIComponent(`Hola Maestro JOSE FELIZ, he obtenido un descuento del ${discount}% como optenerlo. ¡Estoy interesado en saber más! La carta que saqué fue: ${document.getElementById('result').innerText}`)}`;
         window.location.href = whatsappUrl;
     }
